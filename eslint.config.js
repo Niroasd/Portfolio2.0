@@ -22,6 +22,7 @@ export default [
       react,
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
+      'no-unused-vars': 1,
     },
     rules: {
       ...js.configs.recommended.rules,
