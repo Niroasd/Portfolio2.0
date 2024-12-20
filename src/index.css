@@ -2,5 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 *{
-  font-family: 'poppins'
+  font-family: 'poppins';
+  scroll-behavior: 'smooth';
+}
+
+::-webkit-scrollbar{
+  width: 20px;
+}
+
+::-webkit-scrollbar-track{
+  background: rgba(0,0,0,0.9);
+}
+
+::-webkit-scrollbar-thumb{
+  background: #525252
 }
