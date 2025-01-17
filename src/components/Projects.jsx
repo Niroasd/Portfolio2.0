@@ -9,7 +9,7 @@ const projectsData = [
   {
     image: image1,
     title: "Virtual Reality Game",
-    description: "For my capstone project, I developed a Virtual Reality (VR) game designed to help bioanalyst students recognize laboratory sampling equipment. This educational tool provides an engaging environment for students to familiarize themselves with essential tools and their applications in a virtual lab.The game aims to enhance the learning experience by allowing students to explore and identify various sampling instruments. It bridges the gap between theoretical knowledge and practical application, ensuring students build confidence and competence in their skills.",
+    description: "I developed a Virtual Reality (VR) game to help bioanalyst students recognize and familiarize themselves with laboratory sampling equipment. This educational tool enhances learning by bridging theoretical knowledge with practical application in a virtual lab.",
     technologies: ["C#", "Unity", "XR-tools", "Git", "Agile"],
     link: ""
   },
@@ -20,13 +20,13 @@ const projectsData = [
     technologies: ["PostgreSQL", "InfluxDB", "Telegraf", "Grafana", "Python", "Microservices"],
     link: "https://ismo.turkuamk.fi/"
   },
-  {
-    image: image1,
-    title: "Some school project",
-    description: "template",
-    technologies: ["C#", "Unity", "XR-tools", "Git", "Agile"],
-    link: ""
-  },
+  // {
+  //   image: image1,
+  //   title: "Some school project",
+  //   description: "template",
+  //   technologies: ["C#", "Unity", "XR-tools", "Git", "Agile"],
+  //   link: ""
+  // },
 ]
 
 const ScrollReveal = ({ children }) => {
