@@ -32,10 +32,14 @@ const Navbar = () => {
 
       <ul className='hidden md:flex gap-5'>
         <li className='cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-finn-blue hover:opacity-100'>
-          <GrLinkedin />
+          <a href="https://www.linkedin.com/in/nico-roininen/" target="_blank" rel="noopener noreferrer">
+            <GrLinkedin />
+          </a>
         </li>
         <li className='cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-finn-blue hover:opacity-100'>
-          <GrGithub />
+          <a href="https://github.com/Niroasd" target="_blank" rel="noopener noreferrer">
+            <GrGithub />
+          </a>
         </li>
       </ul>
 
@@ -64,10 +68,14 @@ const Navbar = () => {
 
           <ul className='flex flex-wrap gap-5'>
             <li className='cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-finn-blue hover:opacity-100'>
-              <GrLinkedin />
+              <a href="https://www.linkedin.com/in/nico-roininen/" target="_blank">
+                <GrLinkedin />
+              </a>
             </li>
             <li className='cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-finn-blue hover:opacity-100'>
-              <GrGithub />
+              <a href="https://github.com/Niroasd" target="_blank">
+                <GrGithub />
+              </a>
             </li>
           </ul>
         </div>
