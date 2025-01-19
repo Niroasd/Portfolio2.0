@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { GrLinkedin } from 'react-icons/gr'
 
 const Contact = () => {
   const [showPopup, setShowPopup] = useState(false);
@@ -25,7 +26,7 @@ const Contact = () => {
         </h1>
 
         <p className='text-center text-lg font-semibold text-gray-300 '>
-          You can send me an email here:
+          You can send me an email here or contact me through linkedin!
         </p>
 
         {showPopup && (
@@ -34,12 +35,21 @@ const Contact = () => {
           </div>
         )}
 
-        <button
-          className='text-nowrap relative rounded-lg border border-indigo-600 bg-black px-5 py-3 text-lg text-white font-bold transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-indigo-600'
-          onClick={copyToClipboard}
-        >
-          Copy email
-        </button>
+        <div className='flex gap-5 text-xl'>
+          <button
+            className='text-nowrap relative rounded-lg border border-indigo-600 bg-black px-5 py-3 text-lg text-white font-bold transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-indigo-600'
+            onClick={copyToClipboard}
+          >
+            Copy email
+          </button>
+
+          <div className='flex items-center justify-center border border-indigo-600 bg-black/90 rounded-md px-3 transition-all duration-300 hover:-translate-y-1'>
+            <a href="https://www.linkedin.com/in/nico-roininen/" target="_blank">
+              <GrLinkedin size={30} className='text-blue-600'/>
+            </a>
+          </div>
+        </div>
+
       </div>
     </div>
   );
