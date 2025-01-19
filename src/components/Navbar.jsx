@@ -51,6 +51,7 @@ const Navbar = () => {
 
       {isOpen && (
         <div className={`fixed right-0 top-[84px] flex h-screen w-1/2 flex-col items-start justify-start gap-10 border-l border-gray-800 bg-black/90 p-12 ${isOpen ? "block" : "hidden"}`}>
+          <div className={`fixed left-0 top-[84px] flex h-screen w-1/2 flex-col items-start justify-start gap-10 ${isOpen ? "block" : "hidden"}`} onClick={menuOpen}></div>
           <ul className='flex flex-col gap-8'>
             <a href='#home' className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'>
               <li>Home</li>
