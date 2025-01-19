@@ -15,7 +15,7 @@ const Profile = () => {
 
 
           >
-            <img src={hello2} draggable='false' className='w-[300px] cursor-pointer shadow-xl shadow-white rounded-full transition-all duration-300 hover:-translate-y-5 hover:scale-105 hover:shadow-2xl hover:shadow-finn-blue md:w-[350px]'></img>
+            <img src={hello2} draggable='false' alt='portrait picture of me or something that i like' className='w-[300px] cursor-pointer shadow-xl shadow-white rounded-full transition-all duration-300 hover:-translate-y-5 hover:scale-105 hover:shadow-2xl hover:shadow-finn-blue md:w-[350px]'></img>
 
           </motion.div>
           <motion.div
