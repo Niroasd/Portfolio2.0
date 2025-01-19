@@ -26,7 +26,7 @@ const Profile = () => {
             className='flex max-w-[600px] flex-col items-center justify-center gap-3 text-center'>
             <h1 className='bg-gradient-to-r from-white to-finn-blue bg-clip-text text-transparent text-5xl font-light'>Nico Roininen</h1>
             <h3 className='bg-gradient-to-r from-blue-200 to-white bg-clip-text text-transparent text-2xl md:text-3xl'>Software developer</h3>
-            <p className='md:text-base text-pretty text-sm text-gray-400'>Hi👋! I'm a Full-Stack Developer crafting seamless and efficient web applications. I have expertise in both front-end and back-end development, I transform ideas into fully functional digital experiences that are visually appealing, highly performant, and user-centric.</p>
+            <p className='md:text-base text-pretty text-sm text-gray-400'>Hi👋! I'm a third-year student at TUAS with a passion for technology, problem-solving, and continuous learning. I have experience in both front-end and back-end development and have also explored game development.<br></br> I enjoy creating software that's user-friendly, efficient, and designed to solve real-world problems. Feel free to reach out if you're interested in collaborating—let's create something amazing together!</p>
           </motion.div>
         </div>
       </div>
