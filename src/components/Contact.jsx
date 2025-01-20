@@ -5,7 +5,7 @@ const Contact = () => {
   const [showPopup, setShowPopup] = useState(false);
 
   const copyToClipboard = () => {
-    const email = "your-email@example.com"; // Replace later
+    const email = "niroasd.dev@gmail.com"; // Replace later
     navigator.clipboard.writeText(email)
       .then(() => {
         setShowPopup(true);
