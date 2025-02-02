@@ -1,6 +1,7 @@
 import React from 'react'
 import image1 from '../assets/vrsamplephoto.jpg'
 import image2 from '../assets/water.webp'
+import image3 from '../assets/portfoliopicmasked.png'
 import { motion } from 'framer-motion'
 
 
@@ -20,13 +21,13 @@ const projectsData = [
     technologies: ["PostgreSQL", "InfluxDB", "Telegraf", "Grafana", "Python", "Microservices"],
     link: "https://ismo.turkuamk.fi/"
   },
-  // {
-  //   image: image1,
-  //   title: "Some school project",
-  //   description: "template",
-  //   technologies: ["C#", "Unity", "XR-tools", "Git", "Agile"],
-  //   link: ""
-  // },
+  {
+    image: image3,
+    title: "This website!",
+    description: "Built with React, Tailwind CSS, and Framer Motion, this project is automatically deployed via a CI/CD pipeline that triggers on every push to the repository. Taught me a lot about responsiveness and importance of automation.",
+    technologies: ["React", "Tailwind CSS", "Framer Motion", "JavaScript", "Vite", "Git"],
+    link: ""
+  },
 ]
 
 const ScrollReveal = ({ children }) => {
@@ -46,7 +47,7 @@ const ProjectCard = ({ project }) => {
   return (
     <ScrollReveal>
       <div className='flex flex-col items-center gap-8 md:flex-row md:gap-24'>
-        <img src={project.image} draggable='false' alt='' className='w-full cursor-pointer rounded-2xl transition-all duration-300 hover:scale-105 md:w-[300px]' />
+        <img src={project.image} draggable='false' alt='' className='w-full cursor-pointer rounded-2xl aspect-video transition-all duration-300 hover:scale-105 md:w-[300px]' />
 
         <div className='flex flex-col gap-5'>
 
