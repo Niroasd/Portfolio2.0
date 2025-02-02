@@ -54,7 +54,7 @@ const Profile = () => {
               transition={{ repeat: Infinity, repeatType: 'loop', repeatDelay: 1, type: 'spring', stiffness: 20, damping: 15, mass: 2 }}
               style={{ "--x": "100%" }}
             >
-              <span className='text-gray-100 tracking-wide font-light h-full w-full block relative linear-mask'>scroll down</span>
+              <span className='text-gray-100 tracking-wide font-light h-full w-full block relative linear-mask pointer-events-none'>scroll down</span>
             </motion.div>
           </motion.div>
         </div>
