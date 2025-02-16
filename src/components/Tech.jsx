@@ -193,7 +193,7 @@ const Tech = () => {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 128 128"
-            className="w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] md:w-[120px] md:h-[120px] transition-all duration-300 hover:-translate-y-5"
+            className="cursor-pointer w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] md:w-[120px] md:h-[120px] transition-all duration-300 hover:-translate-y-5"
           >
             <path
               d="m64.414 122.93 47.606-27.49-18.247-10.553-18.656 10.777a1.06 1.06 0 0 1-1.035-.008 1.054 1.054 0 0 1-.523-.898V69.164c0-.754.39-1.437 1.043-1.812L96.77 54.55a1.03 1.03 0 0 1 1.035.008c.324.18.527.52.53.89v21.543l18.259 10.547V32.56l-52.18 30.12Zm0 0" />
