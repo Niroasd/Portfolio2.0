@@ -1,5 +1,5 @@
 import React from 'react'
-import image1 from '../assets/vrsamplephoto.jpg'
+import image1 from '../assets/vr-sampling.gif'
 import image2 from '../assets/grafana.png'
 import image3 from '../assets/portfoliopicmasked.png'
 import { motion } from 'framer-motion'
